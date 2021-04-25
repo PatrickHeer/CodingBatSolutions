@@ -1,0 +1,8 @@
+public int[] fizzArray(int n) {
+  int[] newArr = new int[n];
+  for (int i = 0; i < newArr.length; i++){
+    if (newArr[i] != n){
+      newArr[i] = i;
+    }
+  }return newArr;
+}
